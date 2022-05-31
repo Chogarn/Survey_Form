@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>    
+        <h1 id="title">Survey Form</h1>
+        <p id="description">we appreciate the time you took filling the survey</p>
+    </header>
+    <form id="survey-form">
+        <div>  
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" value="" required>
+        </div>
+
+        <div>  
+            <label for="email" id="email-label">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" value="" required>
+        </div>
+
+        <div> 
+            <label for="number" id="age-label">Number</label>
+            <input type="number" id="number" placeholder="Enter your number" value="" min="1" max="100" required>
+        </div>
+        
+        <div> 
+            <label for="option1-2" id="option-label">Gender</label>  
+
+            <label>
+                <input type="radio" id="female" name="gender" class="input-radio" value="female" checked>Female
+            </label>
+            <label>
+                <input type="radio" id="male" name="gender" class="input-radio" value="male">Male
+            </label>   
+            <label>
+                <input type="radio" id="transgender" name="gender" class="input-radio" value="transgender">Transgender
+            </label>  
+        </div>
+
+        <div>   
+            <label for="country">Country</label>
+                <select name="country" id="dropdown">
+                    <option disabled selected >Select a country</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="chile">Chile</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="bolivia">Bolivia</option>
+                    <option value="peru">Peru</option>
+                </select>
+        </div>
+
+        <div>   
+            <label for="idiom" id="idiom">Elija las comidas que le gusta</label>
+            <label>
+                <input type="checkbox" name="english" class="input-checkbox" value="english">English
+            </label>
+            <label>
+                <input type="checkbox" name="spanish" class="input-checkbox" value="spanish">Spanish
+            </label>
+            <label>
+                <input type="checkbox" name="italian" class="input-checkbox" value="italian">Italian
+            </label>
+            <label>
+                <input type="checkbox" name="french" class="input-checkbox" value="french">Frances
+            </label>
+            <label>
+                <input type="checkbox" name="portugues" class="input-checkbox" value="portugues">Portugues
+            </label>
+            <label>
+                <input type="checkbox" name="german" class="input-checkbox" value="german">German
+            </label>            
+        </div>
+        
+
+        <div>   
+            <label for="textarea" id="number-label">Send us your suggestions</label>
+        </div>
+
+        <div>   
+            <textarea name="suggestion" id="suggestion" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>   
+            <button id="submit">Submit</button>               
+        </div>
+    </form>
+</body>
+</html>

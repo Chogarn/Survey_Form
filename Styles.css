@@ -1,0 +1,97 @@
+body{
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    background: 
+        linear-gradient(90deg, rgb(216, 243, 220, 0.6), rgb(183, 228, 199, 0.7), rgb(149, 213, 178, 0.8)),
+        url('imagenes/oficina.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}   
+
+
+header {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 24px;
+}
+
+form{
+    text-align: left;
+    margin: 0 500px;
+    padding: 20px; 
+    background: linear-gradient(90deg, #52b788, #40916c, #2d6a4f);  
+    border-radius: 15px;
+}
+
+div{
+    padding: 10px 0 10px 0;
+    display: block;    
+}
+
+label{
+    display: flex; /*Estos es para que aparesca el label arriba y el input abajo*/
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+#name, #email, #age, #country {
+    width: 95%;
+}
+
+.input-radio, .input-checkbox{
+    display: inline-block;
+}
+
+#name{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px
+}
+
+#email{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px
+}
+
+#number{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px
+}
+
+#dropdown{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px
+}
+
+
+textarea{
+    text-align: center;
+    width: 95%;
+    min-height: 20px;
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #3a6ea5;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+    width: 95%;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+}
